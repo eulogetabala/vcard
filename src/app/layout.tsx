@@ -15,14 +15,15 @@ const display = Sora({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://eulogetabala.cg"),
+  metadataBase: new URL("https://euloge-tabala.netlify.app"),
   title: "Euloge Tabala — Ingénieur logiciel Cloud & DevOps",
   description:
-    "Ingénieur logiciel, Cloud & DevOps, Project Manager. Carte de contact — eulogetabala.cg",
+    "Ingénieur logiciel, Cloud & DevOps, Project Manager. Carte de contact digitale.",
   openGraph: {
     title: "Euloge Tabala | Cloud & DevOps · Project Manager",
     description:
-      "Ingénieur logiciel — Cloud, DevOps et gestion de projet. eulogetabala.cg",
+      "Ingénieur logiciel — Cloud, DevOps et gestion de projet.",
+    url: "https://euloge-tabala.netlify.app",
     locale: "fr_FR",
     images: [{ url: "/hello-1.png", width: 800, height: 800, alt: "Euloge Tabala" }],
   },
