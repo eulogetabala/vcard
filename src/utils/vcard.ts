@@ -22,7 +22,7 @@ export function profileToContactData(): ContactData {
     organization: profile.organization,
     phone: profile.phone,
     email: profile.email,
-    website: profile.website,
+    website: profile.portfolio,
     linkedin: profile.linkedin,
     location: profile.location,
     notes: profile.vcardNotes,

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Phone, Mail, Globe, MessageCircle, Contact, type LucideIcon } from "lucide-react";
+import { Phone, Mail, Briefcase, MessageCircle, Contact, type LucideIcon } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa6";
 import { profile } from "@/data/profile";
 import { generateAndDownloadVCard } from "@/utils/vcard";
@@ -25,10 +25,10 @@ const infos = [
     external: false,
   },
   {
-    icon: Globe,
-    label: "Site",
-    value: profile.websiteDisplay,
-    href: profile.website,
+    icon: Briefcase,
+    label: "Portfolio",
+    value: profile.portfolioDisplay,
+    href: profile.portfolio,
     external: true,
   },
   {

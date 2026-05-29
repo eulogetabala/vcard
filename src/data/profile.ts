@@ -7,13 +7,16 @@ export const profile = {
   phone: "+242065298498",
   phoneDisplay: "+242 065298498",
   email: "eulogetabala51@gmail.com",
-  website: "https://euloge-tabala.netlify.app",
-  websiteDisplay: "euloge-tabala.netlify.app",
+  /** URL de la carte (QR → cette page) */
+  cardUrl: "https://euloge-tabala.netlify.app",
+  /** Portfolio professionnel */
+  portfolio: "https://eulogetabala.cg",
+  portfolioDisplay: "eulogetabala.cg",
   linkedin: "https://www.linkedin.com/in/euloge-tabala-mabandza-84072a310/",
   linkedinDisplay: "Profil LinkedIn",
   location: "République du Congo",
   avatar: "/hello-1.png",
-  vcardNotes: "Carte de contact — euloge-tabala.netlify.app",
+  vcardNotes: "Portfolio : eulogetabala.cg",
 } as const;
 
 export type Profile = typeof profile;

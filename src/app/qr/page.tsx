@@ -9,7 +9,7 @@ import { profile } from "@/data/profile";
  * Au scan → page designée → l’utilisateur enregistre le contact depuis là.
  */
 export default function QrPrintPage() {
-  const [cardUrl, setCardUrl] = useState<string>(profile.website);
+  const [cardUrl, setCardUrl] = useState<string>(profile.cardUrl);
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.location.hostname === "localhost") {
@@ -40,7 +40,7 @@ export default function QrPrintPage() {
       </div>
 
       <p className="text-xs text-[#94a3b8] text-center max-w-xs leading-relaxed">
-        Ce QR ouvre <strong className="text-[#0d1424]">{profile.websiteDisplay}</strong>,
+        Ce QR ouvre <strong className="text-[#0d1424]">euloge-tabala.netlify.app</strong>,
         puis la personne peut enregistrer le contact sur la carte. À imprimer sur ta
         carte physique.
       </p>
