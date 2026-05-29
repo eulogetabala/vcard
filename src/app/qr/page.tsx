@@ -9,7 +9,7 @@ import { profile } from "@/data/profile";
  * Au scan → page designée → l’utilisateur enregistre le contact depuis là.
  */
 export default function QrPrintPage() {
-  const [cardUrl, setCardUrl] = useState(profile.website);
+  const [cardUrl, setCardUrl] = useState<string>(profile.website);
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.location.hostname === "localhost") {
